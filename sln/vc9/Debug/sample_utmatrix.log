@@ -1,0 +1,59 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Свойству "IntermediateOutputPath" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Свойству "DebugType" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Свойству "CleanFile" в первый раз присваивается значение, но оно уже было использовано в "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+cl : командная строка warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  sample_matrix.cpp
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(203,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(202): message : во время компиляции функции-члена класс шаблон "TMatrix<int>::TMatrix(int)"
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\samples\sample_matrix.cpp(14): message : выполняется компиляция ссылки на экземпляр шаблон функции "TMatrix<int>::TMatrix(int)"
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\samples\sample_matrix.cpp(14): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "TMatrix<int>"
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(232,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(230): message : во время компиляции функции-члена класс шаблон "TMatrix<int> TMatrix<int>::operator +(const TMatrix<int> &)"
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\samples\sample_matrix.cpp(26): message : выполняется компиляция ссылки на экземпляр шаблон функции "TMatrix<int> TMatrix<int>::operator +(const TMatrix<int> &)"
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(111,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(108): message : во время компиляции функции-члена класс шаблон "TVector<ValType> &TVector<ValType>::operator =(const TVector<ValType> &)"
+          with
+          [
+              ValType=int
+          ]
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(204): message : выполняется компиляция ссылки на экземпляр шаблон функции "TVector<ValType> &TVector<ValType>::operator =(const TVector<ValType> &)"
+          with
+          [
+              ValType=int
+          ]
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(202): message : во время компиляции функции-члена класс шаблон "TMatrix<int>::TMatrix(int)"
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\samples\sample_matrix.cpp(14): message : выполняется компиляция ссылки на экземпляр шаблон функции "TMatrix<int>::TMatrix(int)"
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(146,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(144): message : во время компиляции функции-члена класс шаблон "TVector<ValType> TVector<ValType>::operator +(const TVector<ValType> &)"
+          with
+          [
+              ValType=int
+          ]
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(233): message : выполняется компиляция ссылки на экземпляр шаблон функции "TVector<ValType> TVector<ValType>::operator +(const TVector<ValType> &)"
+          with
+          [
+              ValType=int
+          ]
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(73,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(72): message : во время компиляции функции-члена класс шаблон "TVector<ValType>::TVector(const TVector<ValType> &)"
+          with
+          [
+              ValType=int
+          ]
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(150): message : выполняется компиляция ссылки на экземпляр шаблон функции "TVector<ValType>::TVector(const TVector<ValType> &)"
+          with
+          [
+              ValType=int
+          ]
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(64): message : во время компиляции функции-члена класс шаблон "TVector<ValType>::TVector(int,int)"
+          with
+          [
+              ValType=int
+          ]
+C:\Users\$A$A\source\repos\mp2-lab2-matrix\include\utmatrix.h(204): message : выполняется компиляция ссылки на экземпляр шаблон функции "TVector<ValType>::TVector(int,int)"
+          with
+          [
+              ValType=int
+          ]
+sample_matrix.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+  sample_utmatrix.vcxproj -> C:\Users\$A$A\source\repos\mp2-lab2-matrix\sln\vc9\Debug\sample_utmatrix.exe
